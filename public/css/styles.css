@@ -888,6 +888,10 @@ video {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:justify-between{
     justify-content: space-between;
   }
